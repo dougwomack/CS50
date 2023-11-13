@@ -1,0 +1,11 @@
+def main():
+    x = int(input("What's x? "))
+    y = int(input("What's y? "))
+
+    if x < y or x > y:
+        print("x is not equal than y")
+    else:
+        print("X is equal to y")
+    
+if __name__ == '__main__':
+    main()
